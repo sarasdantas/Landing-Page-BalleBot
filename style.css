@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Sarala:wght@400;700&display=swap');
+/* Serve para importar fontes, nesse caso do Google Fonts */
+
+* {
+    /* Seleciona todos os itens da página*/
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    /* Essas configurações foram feitas para "resetar" qualquer tipo de pré configuração já existente */
+}
+
+body {
+    font-size: 100%;
+    /* Está resetanto também */
+    background: linear-gradient(68.15deg, #2F2325 16.62%, #8E5D52 85.61%);
+    /* Essa forma de coloração serve para fazer um degradê */
+}
+
+.menu {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    /* Os itens acima foram usados da configuração Flexbox do CSS, usado para centralizar itens */
+    padding: 24px;
+}
+
+.menu-imagem {
+    height: 72px;
+    /* Tamanho da imagem */
+}
+
+.menu-opções {
+    display: flex;
+    gap: 32px;
+    /* Essa tag da Flexbox serve para separar os itens numa mesma medida */
+}
+
+.menu-opção1 {
+    font-family: 'Sarala', sans-serif;
+    color: #FFF2E7;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.principal {
+    border-top: 0.4px solid #FFF2E7;
+    /* "Linha" colocada para separar o menu do principal */
+    margin-bottom: 48px;
+    /* Espaço abaixo da linha */
+}
+
+.principal-seção1 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.principal-seção1-texto {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.principal-seção1-título {
+    font-family:'Righteous', cursive;
+    font-weight: 400;
+    font-size: 64px;
+    color: #FFF2E7;
+}
+
+.principal-seção1-subtítulo {
+    font-family: 'Sarala', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    color: #ECD6C4;
+}
+
+.principal-seção1-botão:hover{
+    /* Configuração para quando o mouse "passar" em cima do botão */
+    background-color: rgba(236,214,196,0.53);
+    /* Cor que vai ficar com o mouse em cima */
+}
+
+.principal-seção1-botão {
+    background-color: #ECD6C4;
+    width: 185px;
+    /* Lagura */
+    height: 67px;
+    /* Altura */
+    border: none;
+    box-shadow: 4px 5px 4px rgba(0,0,0,0.25);
+    /* Sombra */
+    border-radius: 20px;
+    /* Arredondado */
+    font-family: 'Sarala', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    color: #2F2325;
+}
+
+.principal-seção1-imagem {
+    height: 430px;
+}
+
+.principal-seção2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    margin-top: 48px;
+}
+
+.principal-seção2-subtítulo {
+    border-top: 0.4px solid #FFF2E7;
+    padding-top: 48px;
+    font-family:'Righteous', cursive;
+    font-weight: 400;
+    font-size: 24px;
+    color: #FFF2E7;
+    margin-bottom: 16px;
+}
+
+.principal-seção2-parágrafo1 {
+    font-family: 'Sarala', sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    color: #ECD6C4;
+}
+
+.rodapé {
+    padding: 32px;
+    border-top: 0.4px solid #FFF2E7;
+}
+
+.rodapé-imagem {
+    height: 48px;
+    display: block;
+    margin: 0 auto;
+}
